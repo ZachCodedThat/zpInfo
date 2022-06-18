@@ -1,8 +1,7 @@
 {
   "name": "zpinfo",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "My secret buisness card",
-  "type": "module",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,7 +9,7 @@
   "author": "Zachary Przybilski",
   "license": "ISC",
   "bin": {
-    "zpInfo": "./index.js"
+    "zpInfo": "./index.mjs"
   },
   "dependencies": {
     "boxen": "^7.0.0",

@@ -41,14 +41,10 @@ const linkList = links
 console.log(
   chalk.blue(
     boxen(
-      chalk.red("My name is Zach") +
-        "\n" +
-        chalk.green("I am a software developer") +
-        "\n" +
-        linkList,
+      chalk.green("Frontend Developer") + "\n" + linkList,
 
       {
-        title: chalk.yellow("Yerrrrrrrt"),
+        title: chalk.yellow("Zachary Przybilski"),
         titleAlignment: "center",
         padding: 1,
         margin: 1,

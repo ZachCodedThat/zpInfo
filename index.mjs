@@ -25,7 +25,7 @@ const links = [
     url: "    https://twitch.tv/zach_strikes_back",
   },
   {
-    name: chalk.hex("#fff").bgHex("#1DA1F2")("Twitter"),
+    name: chalk.hex("#fff").bgHex("#1DA1F2")("X"),
     url: "   https://twitter.com/TweetZachBack",
   },
   {
@@ -41,7 +41,7 @@ const linkList = links
 console.log(
   chalk.blue(
     boxen(
-      chalk.green("Frontend Developer") + "\n" + linkList,
+      chalk.green("Software Engineer") + "\n" + linkList,
 
       {
         title: chalk.yellow("Zachary Przybilski"),
